@@ -3,4 +3,4 @@ WORKDIR /App
 COPY . .
 RUN npm install
 CMD ["node", "server.js"]
-EXPOSE 443
+EXPOSE 5443
